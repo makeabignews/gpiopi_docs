@@ -1,0 +1,15 @@
+site_name: 煮豆知识库
+pages:
+    - 首页: index.md
+    - 语义物联: semantic.md
+    - 开发板: board.md
+    - 芯片: chip.md
+    - 传感器: sensor.md
+    - 模块: module.md
+    - 设备: device.md
+    - 产品: product.md
+    - 项目: project.md
+    - 解决方案: solution.md
+    - 创业公司: company.md
+    - 关于煮豆: about.md
+theme: readthedocs

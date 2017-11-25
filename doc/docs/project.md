@@ -20,3 +20,30 @@ The engine supports on-device compilation, execution and provides access to peri
 A framework for Internet of Things
 这是三星集团出品的一个针对物联网的javascript框架。
 [https://github.com/Samsung/iotjs](https://github.com/Samsung/iotjs)
+
+###question2answer
+一个问答类的开源程序
+[https://github.com/q2a/question2answer/releases](https://github.com/q2a/question2answer/releases)
+
+
+###bluepy
+```
+$ sudo apt-get install python-pip libglib2.0-dev
+$ sudo pip install bluepy
+```
+
+For Python 3, you may need to use pip3:
+```
+$ sudo apt-get install python3-pip libglib2.0-dev
+$ sudo pip3 install bluepy
+```
+[https://github.com/IanHarvey/bluepy](https://github.com/IanHarvey/bluepy)
+
+###Question2Answer
+
+[https://github.com/q2a/question2answer/releases/download/v1.7.5/question2answer-1.7.5.zip](https://github.com/q2a/question2answer/releases/download/v1.7.5/question2answer-1.7.5.zip)
+
+###openrisc
+
+一个开源指令集的项目
+[https://github.com/openrisc](https://github.com/openrisc)

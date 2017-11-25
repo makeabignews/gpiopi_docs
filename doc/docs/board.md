@@ -26,6 +26,22 @@ unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
 sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
 ```
 
+dietpi
+```
+wget http://dietpi.com/downloads/images/DietPi_RPi-armv6-(Jessie).7z
+```
+
+```
+7z x DietPi_RPi-armv6-\(Jessie\).7z
+```
+
+```
+sudo dd if=DietPi_RPi-armv6-\(Jessie\).img of=/dev/sdx
+```
+
+username: root password: dietpi
+
+
 GPIO
 
 nodegpio
@@ -58,6 +74,27 @@ c-sky是国产自主指令集的CPU，能使用python开发。
 [mainline](https://dl.armbian.com/orangepizero/Ubuntu_xenial_next.7z)
 
 root/1234
+
+[DietPi](http://dietpi.com/downloads/images/DietPi_OrangePiZero-armv7-(Jessie).7z)
+
+[DietPi on github](https://github.com/Fourdee/DietPi)
+
+username: root password: dietpi
+
+小贴士：
+别用图形化工具去烧录tf卡，用dd命令才能启动～ （原因未知）
+
+```
+sudo dd if=DietPi_v145_OrangePiZero-armv7-\(Jessie\).img of=/dev/sda
+记录了907264+0 的读入
+记录了907264+0 的写出
+464519168 bytes (465 MB, 443 MiB) copied, 115.507 s, 4.0 MB/s
+
+```
+
+最好能在你的局域网管理界面里看到你的设备，否则单纯扫描22端口是无法发现ssh的。另外该板子的启动速度很慢，通电后登上2分钟再登陆。
+
+如果开启了热点，默认ip是192.168.42.1
 
 ###香蕉派
 

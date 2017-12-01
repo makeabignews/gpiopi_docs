@@ -14,7 +14,14 @@ raspbian = raspberry pi + debian
 sudo dd if=2017-09-07-raspbian-stretch.img of=/dev/sdb
 ```
 
+该镜像默认没有开启ssh，需要在磁盘根目录建立一个名为ssh的文件，即可启用ssh。
+
 sdb需要用fdisk -l列出磁盘确认，不要弄错了。
+
+附件：3.5寸 LCD 屏幕驱动
+http://www.kedei.net/raspberry/v6_1/LCD_show_v6_1_3.tar.gz
+
+
 
 ubuntu-mate
 

@@ -30,3 +30,24 @@ network={
 ```
 wpa_supplicant -B -d -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
 ```
+
+
+
+### hostapd
+
+```
+git clone https://github.com/oblique/create_ap.git
+```
+
+```
+apt install hostapd dnsmasq iptables
+```
+
+```
+cd create_ap
+make install
+```
+
+```
+create_ap wlan0 eth0 snailpi 123456789
+```

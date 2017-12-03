@@ -1,6 +1,10 @@
 ###hci
 
 ```
+service bluetooth start
+```
+
+```
 hciconfig
 ```
 

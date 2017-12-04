@@ -47,3 +47,14 @@ scrot
 ```
 scrot -s
 ```
+
+###chrome
+```
+apt install google-chrome-stable
+```
+```
+
+run:
+```
+google-chrome-stable --no-sandbox --user-data-dir
+```

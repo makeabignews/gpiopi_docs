@@ -58,3 +58,15 @@ run:
 ```
 google-chrome-stable --no-sandbox --user-data-dir
 ```
+
+###min
+
+min是一个极简浏览器
+```
+wget https://github.com/minbrowser/min/releases/download/v1.6.3/Min_1.6.3_amd64.deb
+```
+
+###qupzilla
+```
+sudo apt-get install qupzilla
+```
